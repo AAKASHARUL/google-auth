@@ -1,0 +1,24 @@
+# 1. Security: NEVER upload secrets
+.env
+
+# 2. Virtual Environment: Too big, everyone creates their own
+venv/
+env/
+.venv/
+
+# 3. Python Bytecode: Generated automatically
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 4. OS Files: Junk files from Mac/Windows
+.DS_Store
+Thumbs.db
+
+# 5. Editor Settings: Personal VS Code settings
+.vscode/
+.idea/
+# 6. Temporary/Debug Scripts (Optional, since you generated these)
+setup_debug.py
+test_db.py
+mysql-init.txt

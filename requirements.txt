@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic[email]
+sqlalchemy
+psycopg2-binary
+mysqlclient
+pymysql
+python-dotenv
+authlib
+httpx
+itsdangerous
+python-jose[cryptography]
